@@ -1,0 +1,4 @@
+#from .qrc to .py
+pyside6-rcc file-rss.qrc -o this-file.py
+#from .ui to .py 
+pyside6-uic new_transaction.ui -o new_transaction.py
